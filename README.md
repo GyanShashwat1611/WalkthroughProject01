@@ -1,5 +1,5 @@
 ## Dataset Content
-The dataset contains 5643 +27 thousand images taken from a blood smear workflow (where a drop of blood is placed on a glass slide). The cells are parasitized or uninfected with malaria.
+The dataset contains +11 thousand images taken from a blood smear workflow (where a drop of blood is placed on a glass slide). The cells are parasitized or uninfected with malaria.
 
 
 ## Business Requirements
@@ -34,7 +34,7 @@ As a Data Analyst from Code Institute Consulting, you are requested by the Healt
 	* Accuracy of 65% or above on the test set.
 * The model output is defined as a flag, indicating if the cell has malaria or not and the associated probability of being infected or not. The medical staff will do the blood smear workflow as usual and upload the picture to the App. The prediction is made on the fly (not in batches).
 * Heuristics: The current diagnostic needs an experienced staff and detailed inspection to distinguish infected and not infected cells. A blood smear sample is collected, mixed with a reagent and examined under the microscope. Visual criteria are used to detect malaria parasites. It leaves room to produce inaccurate diagnostics due to human errors. On top of that, some specific hospital facilities with malaria centers don't have sufficient, proper staff and expertise and are typically understaffed.
-* The training data to fit the model come from [National Institutes of Health (NIH) Website](https://ceb.nlm.nih.gov/repositories/malaria-datasets/). This dataset contains about 26+ thousand images. We have extracted a subset of 5643 images from this dataset and saved it to [kaggle dataset directory](https://www.kaggle.com/gyanshashwat1611/malaria-cell-classification/) for quicker model training.
+* The training data to fit the model come from [National Institutes of Health (NIH) Website](https://ceb.nlm.nih.gov/repositories/malaria-datasets/). This dataset contains about 26+ thousand images. We have extracted a subset of +11 thousand images (5643 images for each class) from this dataset and saved it to this [kaggle dataset directory](https://www.kaggle.com/codeinstitute/malaria-cell-classification) for quicker model training.
 	* Train data - target: infected or not; features: all images
 
 
